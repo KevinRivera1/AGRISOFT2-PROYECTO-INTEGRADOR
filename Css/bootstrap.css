@@ -1,0 +1,88 @@
+* {
+    box-sizing     : border-box;
+    list-style     : none;
+    text-decoration: none;
+}
+
+.banner-image {
+    background-image: url('../img/agrisoft-banner-1920x1080-10.jpg');
+    background-size : cover;
+}
+
+.mb-4 {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+a.nav-link {
+    color      : #3E0E12;
+    font-weight: bold;
+}
+
+a.nav-link:hover {
+    color: #27DB20;
+}
+
+a.btn.btn-danger.w-100 {
+    background: #3E0E12;
+}
+
+a#boton-alterno {
+    background-color: #3E0E12;
+}
+
+.overlay-nav {
+    position: relative;
+}
+
+.banner-image .overlay {
+    position   : absolute;
+    top        : 0;
+    bottom     : 0;
+    left       : 0;
+    right      : 0;
+    background : rgba(0, 0, 0, 0.3);
+    color      : #ffff;
+    font-weight: bold;
+}
+
+.col-12 {
+    display        : grid;
+    align-items    : center;
+    justify-content: center;
+}
+
+#input {
+    width        : 280px;
+    border       : none;
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+    color        : black;
+    border       : 1px solid black;
+    box-shadow   : none;
+    outline      : none;
+}
+
+#posicion {
+
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+
+}
+
+#ordenar {
+    display       : flex;
+    flex-direction: column;
+}
+
+#boton {
+    margin-left     : 80px;
+    color           : white;
+    background-color: #3E0E12;
+    border-radius   : 10px;
+    width           : 130px;
+    border          : 1px solid black;
+}

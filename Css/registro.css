@@ -1,0 +1,37 @@
+* {
+    color      : white;
+    background : #27DB20;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#input {
+    width        : 180px;
+    border       : none;
+    border-bottom: 1px solid white;
+    border-radius: none;
+    color        : black;
+    box-shadow   : none;
+    outline      : none;
+
+
+}
+
+#posicion {
+
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+}
+
+#ordenar {
+    display       : flex;
+    flex-direction: column;
+}
+
+#boton {
+    margin-left     : 16px;
+    color           : #27DB20;
+    background-color: white;
+    width           : 155px;
+}
