@@ -54,10 +54,12 @@ a#boton-alterno {
 }
 
 #input {
-    width        : 280px;
+    width        : 17.5rem;
+    /* 280px */
     border       : none;
     border-bottom: 1px solid white;
-    border-radius: 10px;
+    border-radius: 0.625rem;
+    /* 10px */
     color        : black;
     border       : 1px solid black;
     box-shadow   : none;
@@ -65,12 +67,10 @@ a#boton-alterno {
 }
 
 #posicion {
-
     display        : flex;
     flex-direction : column;
     align-items    : center;
     justify-content: center;
-
 }
 
 #ordenar {
@@ -79,10 +79,13 @@ a#boton-alterno {
 }
 
 #boton {
-    margin-left     : 80px;
+    margin-left     : 5rem;
+    /* 80px */
     color           : white;
     background-color: #3E0E12;
-    border-radius   : 10px;
-    width           : 130px;
+    border-radius   : 0.625rem;
+    /* 10px */
+    width           : 8.125rem;
+    /* 130px */
     border          : 1px solid black;
 }
